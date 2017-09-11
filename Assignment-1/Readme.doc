@@ -1,0 +1,5 @@
+CS6360 Fall 2016
+Assignment 
+Write a scaled-back contact manager program.  Ideally, your program would have table-maintenance dialogs for every actual data table other than those linked to the contact itself.  Since that isn’t practical, create a screen that lets you add, change, and delete contacts.  The purpose of this assignment is for you to learn how to interface to a database from within a program.
+Add, change, and delete can work with a limited set of tables, although obviously if someone adds complete contact information, include an address, multiple phone numbers, multiple e-mail addresses, and so on, this could end up affecting multiple tables.  Keep your program as simple as possible while meeting the criteria.  Stored procedures will help greatly.
+Always maintain referential integrity both at the database level and at the level of your program; that is, only allow delete of a secondary table item if there are no references to it.  Here is a sample screen for this, using the Company database from the text.  Obviously you should use your own database.
